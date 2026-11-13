@@ -20,8 +20,7 @@ its decisive entries sit near the end, so do not skim its top and default to `ui
 |---|---|---|
 | A marketing / landing / promo page assembled from blocks (hero, features, CTA) | `@gravity-ui/page-constructor` (`PageConstructor` + `PageConstructorProvider`, block config) | hand-written sections from uikit primitives |
 | A dashboard of freely arrangeable widgets | `@gravity-ui/dashkit` | a hand-rolled CSS grid, `react-grid-layout` |
-| A table with sorting, checkbox selection, pagination | uikit `Table` + `withTableSorting` / `withTableSelection` + `Pagination` | `@gravity-ui/table` |
-| A data grid that needs virtualization, column resizing / reordering, grouping, tree rows | `@gravity-ui/table` (TanStack-based) | uikit `Table` |
+| Any table or data grid — from a plain read-only list to sorting, selection, grouping, tree rows, virtualization, column resizing / reordering | `@gravity-ui/table` (`useTable` + `Table`, TanStack-based); pagination — uikit `Pagination` | uikit `Table` and its `withTable*` HOCs (in `@gravity-ui/uikit/legacy` since v8, kept only for existing code), a hand-written `<table>` |
 | A calendar, date / time / range picker | `@gravity-ui/date-components` (peer: `date-utils`) | a `Calendar` from uikit (does not exist), `react-datepicker` |
 | Charts and data visualization | `@gravity-ui/charts` (`<Chart>`); `@gravity-ui/yagr` only for dense realtime series | `chartkit` (legacy wrapper), `recharts`, raw canvas |
 | A Markdown / WYSIWYG editor | `@gravity-ui/markdown-editor` | `<textarea>` + custom preview |

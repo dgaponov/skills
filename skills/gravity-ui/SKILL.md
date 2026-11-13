@@ -30,7 +30,7 @@ follow the ecosystem catalog instead of guessing.
 
 Before doing anything else, work out which `@gravity-ui/*` library the task
 needs. Do not guess from training data — the ecosystem has look-alike packages
-(`charts` vs `chartkit`, uikit `Table` vs `@gravity-ui/table`, `date-components`
+(`charts` vs `chartkit`, `@gravity-ui/table` vs the legacy uikit `Table`, `date-components`
 vs `date-utils`, …) and picking the wrong one is the #1 failure.
 Choose from the task's functionality, not only from dependencies already present in the project.
 Open [`references/package-routing.md`](references/package-routing.md) and read
